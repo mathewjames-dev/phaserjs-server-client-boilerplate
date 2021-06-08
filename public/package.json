@@ -1,0 +1,32 @@
+{
+  "name": "mathewjames.dev-phaser-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./js/main.js",
+  "scripts": {
+    "build": "npx webpack --mode production",
+    "start": "npm run build && npx webpack-dev-server --port=8000 --mode development",
+    "lint": "npx eslint src/ --fix",
+    "bundle": "./bundle.sh"
+  },
+  "author": "mathewjames.dev",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "raw-loader": "^4.0.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "phaser": "^3.55.2",
+    "socket.io-client": "^4.1.2",
+    "uuid": "^3.4.0"
+  }
+}
