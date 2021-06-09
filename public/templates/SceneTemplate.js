@@ -16,7 +16,7 @@
  * -------------------------------------------
  */
 
-export default class TitleScene extends Phaser.Scene({
+export default class TitleScene extends Phaser.Scene{
 
     initialize(config)
     {
@@ -44,4 +44,4 @@ export default class TitleScene extends Phaser.Scene({
     },
 	
 	update: function (time, delta) {}
-});
+}
