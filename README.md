@@ -8,14 +8,14 @@ This repository contains a basic structure and files for a server based phaser.j
 # app/
 This is going to be where all the server application code lies.
 
-# gameObjects/
-Game objects for the game from a server perspective.
+    # gameObjects/
+    Game objects for the game from a server perspective.
 
-# utils/
-Any additional utility functions we need for our application.
+    # utils/
+    Any additional utility functions we need for our application.
 
-# gameManager.js
-Main game class file. 
+    # gameManager.js
+    Main game class file. 
 
 # auth/
 All the authentication is handled within here.
