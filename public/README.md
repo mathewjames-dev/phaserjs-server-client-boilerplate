@@ -51,7 +51,7 @@ Javascript source files for the game.
 
 # templates/
 Will contain skeleton classes and files to reuse within our game.
-```bash
+```
 
 ## Installation
 
